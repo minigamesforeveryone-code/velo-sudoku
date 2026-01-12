@@ -7,7 +7,7 @@
 **Last updated:** January 11, 2026
 
 ### 1. Introduction
-These Terms & Conditions apply to the **AI Sudoku** app (hereby referred to as "Application") created by **Dariusz Grebowiec Software Development** (hereby referred to as "Service Provider") as a Freemium app. By downloading or using the Application, you are agreeing to be bound by these terms. If you do not agree to these terms, please do not use the Application.
+These Terms & Conditions apply to the **Velo Sudoku** app (hereby referred to as "Application") created by **Dariusz Grebowiec Software Development** (hereby referred to as "Service Provider") as a Freemium app. By downloading or using the Application, you are agreeing to be bound by these terms. If you do not agree to these terms, please do not use the Application.
 
 ### 2. License and Intellectual Property
 The Application, along with all designs, text, graphics, and code, is the property of the Service Provider. You are granted a limited, non-exclusive, non-transferable, revocable license to use the Application for personal, non-commercial purposes. You are not allowed to copy, modify, reverse engineer, or attempt to extract the source code of the Application.
@@ -45,7 +45,7 @@ If you have any questions or suggestions about our Terms and Conditions, do not 
 **Data ostatniej aktualizacji:** 11.01.2026
 
 ### 1. Postanowienia wstępne
-Niniejszy Regulamin określa zasady korzystania z aplikacji mobilnej **AI Sudoku** (zwanej dalej "Aplikacją"), stworzonej przez firmę **Dariusz Grebowiec Software Development** (zwaną dalej "Usługodawcą"). Pobierając lub korzystając z Aplikacji, Użytkownik akceptuje niniejszy Regulamin.
+Niniejszy Regulamin określa zasady korzystania z aplikacji mobilnej **Velo Sudoku** (zwanej dalej "Aplikacją"), stworzonej przez firmę **Dariusz Grebowiec Software Development** (zwaną dalej "Usługodawcą"). Pobierając lub korzystając z Aplikacji, Użytkownik akceptuje niniejszy Regulamin.
 
 ### 2. Licencja i Prawa Autorskie
 Aplikacja oraz wszelkie zawarte w niej treści, kody źródłowe, grafiki i projekty stanowią własność intelektualną Usługodawcy. Użytkownik otrzymuje ograniczoną, niewyłączną licencję na korzystanie z Aplikacji wyłącznie do celów prywatnych i niekomercyjnych. Zabrania się kopiowania, modyfikowania, inżynierii wstecznej oraz prób wyodrębnienia kodu źródłowego Aplikacji.
