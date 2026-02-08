@@ -1,4 +1,4 @@
-# Terms & Conditions
+# Regulamin
 
 **Data ostatniej aktualizacji:** 11.01.2026
 
