@@ -1,57 +1,55 @@
-# Privacy Policy
+# Privacy Policy for Velo Sudoku
 
-*Last updated: January 11, 2026*
-
-
-## Privacy Policy for Velo Sudoku
+**Last Updated:** February 08, 2026
 
 ### 1. Introduction
-This privacy policy explains how data is processed and protected in the **Velo Sudoku** mobile application (hereinafter "App"). We respect user privacy and are committed to transparency regarding the technologies used.
+This Privacy Policy sets out the rules for the processing and protection of data in the **Velo Sudoku** mobile application (hereinafter referred to as the "App"). We respect user privacy and ensure transparency regarding the technologies used.
 
-### 2. Data and Permissions
-The App does not have its own backend server and does not transmit personal user data to the Developer. We do not require account creation or provide names/emails.
+### 2. Data, Permissions, and No Backend
+The App does not have its own server (backend) and does not transmit the user's personal data to the Developer. We do not require account creation, login, or providing a name or email address.
 
-However, the App may process data in the following ways:
-* **Local Processing:** The App saves game progress, settings, and statistics exclusively in the internal memory of the user's device.
-* **Third-Party Processing:** The App uses external libraries (SDKs) such as Google AdMob and Firebase, which may automatically collect and transmit device identifiers (e.g., Advertising ID), approximate location data, and diagnostic data for ad delivery and crash analysis.
+The App processes data in the following ways:
+* **Local Processing:** Game progress, settings, and statistics are stored exclusively in the secure internal memory of the user's device.
+* **Third-Party Processing:** The App uses external libraries (SDKs) that may collect device identifiers and diagnostic data, **exclusively after obtaining explicit User consent**. No telemetry data is sent automatically before this consent is granted.
 
-### 3. Third-Party Partners
-As a developer, we do not collect user data on our own servers, but we have integrated third-party services that may collect data according to their own policies:
+### 3. Third-Party Partners and Data Sharing
+We have integrated services from trusted third parties. We do not have direct access to the data collected by these systems.
 
-**A. Google AdMob (Advertising)**
-Ad provider. May use device identifiers to personalize ads and prevent fraud.
+**A. Google AdMob (Ads)**
+Ad provider. May use device identifiers to personalize ads.
+* **Consent:** Personalized ads are displayed only after consent is granted in the CMP (Consent Management Platform) window.
 * Google Privacy Policy: https://policies.google.com/privacy
 
-**B. Google Firebase (Analytics & Crashlytics)**
-Tool for crash analysis. Collects anonymous crash reports (e.g., device model, OS version) to help us fix bugs in the App.
-* Firebase Privacy Policy: https://firebase.google.com/support/privacy
+**B. Google Firebase (Stats and Stability)**
+Tools for crash analysis (Crashlytics) and usage statistics (Analytics).
+* **Consent:** Crash reports and performance data **are not sent automatically**. The User must explicitly consent to the collection of analytical/diagnostic data in the welcome form. Without this consent, the App does not remotely monitor errors or performance.
+
+**C. Google Play Services (Payments)**
+The App uses Google Play services to handle purchases. The Developer does not have access to the User's financial data.
 
 ### 4. Purpose of Actions
-The actions taken by the App are intended for:
-1.  **Game Functionality (Local):** Saving game state so the user does not lose progress after closing the App.
-2.  **Monetization (Partners):** Displaying ads, which allows the game to be provided for free.
-3.  **Technical Maintenance (Partners):** Monitoring app stability and fixing bugs based on anonymized reports.
+The actions taken by the App aim to:
+1.  **Game Functionality:** Saving game state (Save/Load) – local data.
+2.  **Maintenance & Development:** Monitoring bugs and stats – **only with User consent**.
+3.  **Monetization:** Displaying ads – **personalized only with User consent**.
 
-### 5. Data Deletion and "Right to be Forgotten"
-Since the App does not use a user account system, the Developer does not have the technical ability to delete a specific user's data from servers (as no such data is stored there by the Developer).
+### 5. Data Deletion
+Full control over data lies with the User.
 
-You can manage or delete your data locally:
+**Managing Game Progress (Local Data):**
+* **Deleting Individual Entries:** The User can manually delete specific score entries within the Statistics section.
+* **Complete Data Removal:** To permanently delete all progress, the User must uninstall the App or clear its storage (*Android Settings -> Apps -> Velo Sudoku -> Storage -> Clear Data*).
 
-1.  **Local Data (Game Progress, Settings):**
-    All game data is stored locally on your device. You can permanently delete this data by:
-    * Uninstalling the App.
-    * Clearing the App's storage in Android settings (*Settings -> Apps -> Velo Sudoku -> Storage -> Clear Data*).
+**Managing Consents (External Data):**
+The User can withdraw consent for analytics and ads at any time within the App Settings, which will immediately stop data transmission to partners.
 
-2.  **Advertising and Analytics Data (Google/AdMob):**
-    You can reset your Advertising ID or opt-out of personalized ads at any time via your device settings:
-    * *Android Settings -> Google -> Ads -> Reset advertising ID* or *Delete advertising ID*.
-    * To manage data associated with your Google account, please visit: https://myactivity.google.com/
-
-### 6. GDPR (Users in Europe)
-Under the GDPR, users in the European Economic Area (EEA) have the right to consent to or opt-out of personalized advertising. Upon the first launch of the App, a Consent Form is displayed allowing you to manage your preferences. You can change these settings at any time within the "Privacy" section of the App.
+### 6. GDPR / RODO (User Consent)
+In accordance with GDPR, users from the EEA and the UK have full rights to decide about their data.
+* Upon the first launch, a **Consent Form (CMP)** is displayed.
+* The User decides separately about **ads** and **analytics/performance data**.
+* If the User does not grant consent, no data will be sent to Google Firebase or AdMob (regarding personalization).
+* This decision can be changed in the App Settings ("Privacy" button).
 
 ### 7. Contact
-If you have any questions regarding this privacy policy or personal data, please contact us at:
+For matters regarding privacy policy, please contact us at:
 **minigamesforeveryone@gmail.com**
-
-*Note: To facilitate a quick response regarding privacy matters, please include "Privacy" or "GDPR" in the subject line of your email.*

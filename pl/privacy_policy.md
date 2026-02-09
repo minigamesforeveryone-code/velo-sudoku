@@ -1,52 +1,55 @@
-## Polityka Prywatności aplikacji Velo Sudoku
+# Polityka Prywatności aplikacji Velo Sudoku
+
+**Ostatnia aktualizacja:** 08.02.2026
 
 ### 1. Wstęp
 Niniejsza polityka prywatności określa zasady przetwarzania i ochrony danych w aplikacji mobilnej **Velo Sudoku** (dalej "Aplikacja"). Szanujemy prywatność użytkowników i dbamy o przejrzystość w kwestii wykorzystywanych technologii.
 
-### 2. Dane i uprawnienia
-Aplikacja nie posiada własnego serwera (backendu) i nie przesyła danych osobowych użytkownika do Dewelopera. Nie wymagamy zakładania konta ani podawania imienia czy adresu e-mail.
+### 2. Dane, uprawnienia i brak backendu
+Aplikacja nie posiada własnego serwera (backendu) i nie przesyła danych osobowych użytkownika do Dewelopera. Nie wymagamy zakładania konta, logowania się ani podawania imienia czy adresu e-mail.
 
-Aplikacja może jednak przetwarzać dane w następujący sposób:
-* **Przetwarzanie lokalne:** Aplikacja zapisuje postępy w grze, ustawienia oraz statystyki wyłącznie w pamięci wewnętrznej urządzenia użytkownika.
-* **Przetwarzanie przez partnerów:** Aplikacja korzysta z bibliotek zewnętrznych (SDK), takich jak Google AdMob i Firebase, które mogą automatycznie gromadzić i przesyłać identyfikatory urządzenia (np. Advertising ID), dane o lokalizacji przybliżonej oraz dane diagnostyczne w celu wyświetlania reklam i analizy błędów.
+Aplikacja przetwarza dane w następujący sposób:
+* **Przetwarzanie lokalne:** Postępy w grze, ustawienia, czasy rozwiązywania łamigłówek oraz statystyki są zapisywane wyłącznie w bezpiecznej pamięci wewnętrznej urządzenia użytkownika.
+* **Przetwarzanie przez partnerów:** Aplikacja korzysta z bibliotek zewnętrznych (SDK), które mogą gromadzić identyfikatory urządzenia oraz dane diagnostyczne, **wyłącznie po uzyskaniu wyraźnej zgody Użytkownika**. Żadne dane telemetryczne nie są wysyłane automatycznie przed wyrażeniem tej zgody.
 
 ### 3. Partnerzy zewnętrzni i udostępnianie danych
-Jako deweloper nie gromadzimy danych użytkowników na własnych serwerach, jednak zintegrowaliśmy z Aplikacją usługi podmiotów trzecich, które mogą gromadzić dane zgodnie z własnymi politykami:
+Zintegrowaliśmy z Aplikacją usługi zaufanych podmiotów trzecich. Nie mamy bezpośredniego dostępu do danych gromadzonych przez te systemy.
 
 **A. Google AdMob (Reklamy)**
-Dostawca reklam. Może wykorzystywać identyfikatory urządzenia do personalizacji reklam oraz zapobiegania oszustwom.
+Dostawca reklam. Może wykorzystywać identyfikatory urządzenia do personalizacji reklam.
+* **Zgoda:** Reklamy spersonalizowane są wyświetlane tylko po wyrażeniu zgody w oknie CMP (Consent Management Platform).
 * Polityka prywatności Google: https://policies.google.com/privacy
 
-**B. Google Firebase (Statystyki i Błędy)**
-Narzędzie do analizy awaryjności (Crashlytics). Zbiera anonimowe raporty o błędach (np. model telefonu, wersja systemu), co pomaga nam naprawiać usterki w Aplikacji.
-* Polityka prywatności Firebase: https://firebase.google.com/support/privacy
+**B. Google Firebase (Statystyki i Stabilność)**
+Narzędzia do analizy awaryjności (Crashlytics) oraz statystyk (Analytics).
+* **Zgoda:** Raporty o błędach i dane o wydajności **nie są wysyłane automatycznie**. Użytkownik musi wyrazić zgodę na zbieranie danych analitycznych/diagnostycznych w formularzu powitalnym. Bez tej zgody aplikacja nie monitoruje zdalnie błędów ani wydajności.
+
+**C. Google Play Services (Płatności)**
+Aplikacja korzysta z usług Google Play do obsługi zakupów. Deweloper nie ma dostępu do danych finansowych Użytkownika.
 
 ### 4. Cel działań
-Działania podejmowane przez aplikację mają na celu:
-1.  **Funkcjonalność gry (Lokalnie):** Zapisywanie stanu gry, aby użytkownik nie stracił postępów po zamknięciu aplikacji.
-2.  **Monetyzacja (Partnerzy):** Wyświetlanie reklam, co pozwala na udostępnianie gry za darmo.
-3.  **Utrzymanie techniczne (Partnerzy):** Monitorowanie stabilności aplikacji i naprawianie błędów na podstawie zanonimizowanych raportów.
+Działania podejmowane przez Aplikację mają na celu:
+1.  **Funkcjonalność gry:** Zapisywanie stanu gry (Save/Load) – dane lokalne.
+2.  **Utrzymanie i Rozwój:** Monitorowanie błędów i statystyk – **tylko za zgodą Użytkownika**.
+3.  **Monetyzacja:** Wyświetlanie reklam – **spersonalizowane tylko za zgodą Użytkownika**.
 
-### 5. Usuwanie danych i prawo do "bycia zapomnianym"
-Ponieważ Aplikacja nie posiada systemu kont użytkowników, Deweloper nie ma technicznej możliwości usunięcia danych konkretnego użytkownika ze swoich serwerów (gdyż ich tam nie posiada).
+### 5. Usuwanie danych
+Pełna kontrola nad danymi leży po stronie Użytkownika.
 
-Użytkownik może zarządzać danymi we własnym zakresie:
+**Zarządzanie postępem gry (Dane Lokalne):**
+* **Usuwanie pojedynczych wpisów:** Użytkownik ma możliwość ręcznego usunięcia wybranych wyników w sekcji Statystyk.
+* **Całkowite usunięcie danych:** Aby trwale usunąć wszystkie postępy, należy odinstalować aplikację lub wyczyścić jej dane (*Ustawienia Androida -> Aplikacje -> Velo Sudoku -> Pamięć -> Wyczyść dane*).
 
-1.  **Dane lokalne (Postęp gry, Ustawienia):**
-    Wszystkie dane gry są przechowywane w pamięci urządzenia. Użytkownik może je trwale usunąć poprzez:
-    * Odinstalowanie aplikacji.
-    * Wyczyszczenie danych aplikacji w ustawieniach systemu Android (*Ustawienia -> Aplikacje -> Velo Sudoku -> Pamięć -> Wyczyść dane*).
+**Zarządzanie zgodami (Dane Zewnętrzne):**
+Użytkownik może w każdej chwili cofnąć zgodę na analitykę i reklamy w ustawieniach aplikacji, co natychmiast zatrzyma przesyłanie danych do partnerów.
 
-2.  **Dane reklamowe i analityczne (Google/AdMob):**
-    Użytkownik może w każdej chwili zresetować swój identyfikator reklamowy lub zrezygnować z personalizacji reklam w ustawieniach urządzenia:
-    * *Ustawienia Androida -> Google -> Reklamy -> Zresetuj identyfikator reklamowy* lub *Usuń identyfikator reklamowy*.
-    * Aby zarządzać danymi powiązanymi z kontem Google, odwiedź: https://myactivity.google.com/
-
-### 6. RODO / GDPR (Użytkownicy z Europy)
-Zgodnie z RODO, użytkownicy z Europejskiego Obszaru Gospodarczego (EOG) mają prawo do wyrażenia lub wycofania zgody na wyświetlanie reklam spersonalizowanych. Przy pierwszym uruchomieniu aplikacji wyświetlany jest formularz zgody (Consent Form), w którym użytkownik może zarządzać swoimi preferencjami. Użytkownik może zmienić te ustawienia w dowolnym momencie w sekcji "Prywatność" wewnątrz aplikacji.
+### 6. RODO / GDPR (Zgoda Użytkownika)
+Zgodnie z RODO, użytkownicy z EOG i Wielkiej Brytanii mają pełne prawo decydowania o swoich danych.
+* Przy pierwszym uruchomieniu wyświetlany jest **Formularz Zgody (CMP)**.
+* Użytkownik decyduje w nim oddzielnie o **reklamach** oraz **analityce/danych wydajnościowych**.
+* Jeśli Użytkownik nie wyrazi zgody, żadne dane nie zostaną wysłane do Google Firebase ani AdMob (w zakresie personalizacji).
+* Decyzję można zmienić w Ustawieniach Aplikacji (przycisk "Prywatność").
 
 ### 7. Kontakt
-W sprawach dotyczących polityki prywatności i danych osobowych prosimy o kontakt pod adresem e-mail:
+W sprawach dotyczących polityki prywatności prosimy o kontakt pod adresem e-mail:
 **minigamesforeveryone@gmail.com**
-
-*Wskazówka: Aby przyspieszyć odpowiedź w kwestiach związanych z RODO/Prywatnością, prosimy o wpisanie w tytule wiadomości słowa "Prywatność" lub "RODO".*
