@@ -1,35 +1,37 @@
-# Terms & Conditions 
+# Terms of Service
 
-**Last updated:** January 11, 2026
+**Last Updated:** February 08, 2026
 
-### 1. Introduction
-These Terms & Conditions apply to the **Velo Sudoku** app (hereby referred to as "Application") created by **Dariusz Grebowiec Software Development** (hereby referred to as "Service Provider") as a Freemium app. By downloading or using the Application, you are agreeing to be bound by these terms. If you do not agree to these terms, please do not use the Application.
+### 1. Preliminary Provisions
+These Terms of Service (hereinafter referred to as the "Terms") set forth the rules for using the **Velo Sudoku** mobile application (hereinafter referred to as the "Application"), created by **Dariusz Grebowiec Software Development** (hereinafter referred to as the "Service Provider"). By downloading or using the Application, the User accepts these Terms.
 
-### 2. License and Intellectual Property
-The Application, along with all designs, text, graphics, and code, is the property of the Service Provider. You are granted a limited, non-exclusive, non-transferable, revocable license to use the Application for personal, non-commercial purposes. You are not allowed to copy, modify, reverse engineer, or attempt to extract the source code of the Application.
+### 2. License and Copyright
+The Application and all content, source codes, graphics, and designs contained therein are the intellectual property of the Service Provider. The User is granted a limited, non-exclusive license to use the Application solely for private and non-commercial purposes. Copying, modifying, reverse engineering, or attempting to extract the source code of the Application is prohibited.
 
-### 3. In-App Purchases & Payments
-The Application offers optional digital purchases, such as the "Remove Ads" feature.
+### 3. Payments and In-App Purchases
+The Application allows for voluntary digital purchases (In-App Purchases), covering virtual goods (e.g., hints) or additional features.
 
-* **Processing:** All transactions are processed securely through the Google Play Store. The Service Provider does not store your credit card or payment information.
-* **Refunds:** Purchases of digital content are generally non-refundable once the content has been made available to you. Any refund requests must be directed to Google Play support in accordance with their refund policies.
-* **Ads Removal:** The "Remove Ads" purchase is a one-time payment that disables third-party advertisements. This does not remove native app prompts (e.g., rating dialogs or game notifications).
+* **Payment Processing:** All transactions are processed securely through the Google Play Store. The Service Provider does not collect or process the User's payment card data.
+* **Refunds:** In accordance with consumer law and Google Play regulations, the right of withdrawal does not apply to the supply of digital content which is not supplied on a tangible medium if the performance has begun with the consumer’s prior express consent. All payment-related complaints should be directed directly to Google Play.
 
-### 4. Third-Party Services and Ads
-The Application uses third-party services that declare their own Terms and Conditions. Specifically, we use **Google AdMob** to display advertisements. By using the free version of the Application, you acknowledge that third-party ads may be displayed.
+### 4. Ads and Privacy
+The Application is provided on an Ad-Supported model.
 
-Link to Terms and Conditions of third-party service providers used by the app:
+* **Ad Providers:** The Application displays advertisements provided by third parties, in particular through the **Google AdMob** network.
+* **User Consent (CMP):** For Users in the European Economic Area (EEA) and the UK, the Application implements a Consent Management Platform (CMP), allowing the User to make choices regarding ad personalization and cookie usage, in compliance with GDPR requirements and Google policies.
+
+Links to partner policies:
 * [Google Play Services](https://policies.google.com/terms)
-* [AdMob](https://developers.google.com/admob/terms)
+* [AdMob & AdSense](https://developers.google.com/admob/terms)
 
-### 5. Limitation of Liability
-The Application is provided on an "AS IS" and "AS AVAILABLE" basis. The Service Provider does not guarantee that the Application will be error-free or that it will work on all devices. To the maximum extent permitted by law, the Service Provider shall not be liable for any direct, indirect, or consequential damages arising from your use of the Application.
+### 5. Disclaimer of Warranties
+The Application is provided on an "AS IS" basis. The Service Provider makes every effort to ensure the stable operation of the Application but does not guarantee its error-free operation on every device or system configuration. The Service Provider shall not be liable for any damages resulting from the use of the Application, to the extent permitted by applicable law.
 
-### 6. Updates and Changes
-We may update our Terms & Conditions from time to time. Thus, you are advised to review this page periodically for any changes. These changes are effective immediately after they are posted on this page or within the Application.
+### 6. Changes to the Terms
+The Service Provider reserves the right to introduce changes to these Terms. Users will be informed of significant changes via an update within the Application or on the store page. Continued use of the Application after changes are introduced constitutes acceptance thereof.
 
 ### 7. Governing Law
-These terms shall be governed by and construed in accordance with the laws of **Poland**, without regard to its conflict of law provisions.
+In matters not covered by these Terms, the relevant provisions of Polish law shall apply.
 
-### 8. Contact Us
-If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us at **minigamesforeveryone@gmail.com**.
+### 8. Contact
+For any questions regarding these Terms, please contact us at: **minigamesforeveryone@gmail.com**.
