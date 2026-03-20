@@ -1,6 +1,6 @@
 # Terms & Conditions 
 
-**Last updated:** January 11, 2026
+**Last updated:** March 20, 2026
 
 ### 1. Introduction
 These Terms & Conditions apply to the **Velo Sudoku** app (hereby referred to as "Application") created by **Dariusz Grebowiec Software Development** (hereby referred to as "Service Provider") as a Freemium app. By downloading or using the Application, you are agreeing to be bound by these terms. If you do not agree to these terms, please do not use the Application.
@@ -15,12 +15,17 @@ The Application offers optional digital purchases, such as the "Remove Ads" feat
 * **Refunds:** Purchases of digital content are generally non-refundable once the content has been made available to you. Any refund requests must be directed to Google Play support in accordance with their refund policies.
 * **Ads Removal:** The "Remove Ads" purchase is a one-time payment that disables third-party advertisements. This does not remove native app prompts (e.g., rating dialogs or game notifications).
 
-### 4. Third-Party Services and Ads
-The Application uses third-party services that declare their own Terms and Conditions. Specifically, we use **Google AdMob** to display advertisements. By using the free version of the Application, you acknowledge that third-party ads may be displayed.
+### 4. Third-Party Services, Ads and Consent Management
+The Application uses third-party services that declare their own Terms and Conditions. Specifically, we use **Google AdMob** to display advertisements and **Google Firebase** (Analytics, Crashlytics, Performance Monitoring) to analyze usage and improve app stability.
+
+* **Consent Management (CMP):** You have the right to manage your preferences regarding ad personalization and analytics. The Application uses a Consent Management Platform compliant with the IAB TCF v2.2 standard.
+* **Independent Consents:** Consents for analytics and crash reporting are managed independently from ad consents. You can withdraw or change your consents at any time in the Application's settings.
+* By using the free version of the Application, you acknowledge that third-party ads may be displayed based on the consents you provide.
 
 Link to Terms and Conditions of third-party service providers used by the app:
 * [Google Play Services](https://policies.google.com/terms)
-* [AdMob](https://developers.google.com/admob/terms)
+* [Google AdMob](https://developers.google.com/admob/terms)
+* [Google Firebase](https://firebase.google.com/terms)
 
 ### 5. Limitation of Liability
 The Application is provided on an "AS IS" and "AS AVAILABLE" basis. The Service Provider does not guarantee that the Application will be error-free or that it will work on all devices. To the maximum extent permitted by law, the Service Provider shall not be liable for any direct, indirect, or consequential damages arising from your use of the Application.
