@@ -1,6 +1,11 @@
 ## Polityka Prywatności aplikacji Velo Sudoku
 
-*Ostatnia aktualizacja: 20.03.2026*
+*Ostatnia aktualizacja: 11.08.2026*
+
+> **Podsumowanie zmian (11.08.2026):**
+> - Sekcja 2: Sprostowano opis przechowywania danych — poza pamięcią urządzenia dane mogą być kopiowane na konto Google Użytkownika (automatyczna kopia zapasowa Androida, a po połączeniu gry — zapis w chmurze Play Games). Deweloper nadal nie posiada serwera ani dostępu do tych kopii.
+> - Sekcja 3D: Dodano Google Play Games Services (zapis w chmurze) — zakres kopiowanych danych, dobrowolność połączenia, wyłączanie i usuwanie kopii.
+> - Sekcja 5: Dodano zarządzanie kopiami w chmurze (usuwanie kopii Play Games, automatyczna kopia zapasowa Androida).
 
 > **Podsumowanie zmian (20.03.2026):**
 > - Sekcja 2: Doprecyzowano, że dane partnerów są przesyłane wyłącznie po wyrażeniu zgody (nie automatycznie).
@@ -16,7 +21,8 @@ Niniejsza polityka prywatności określa zasady przetwarzania i ochrony danych w
 Aplikacja nie posiada własnego serwera (backendu) i nie przesyła danych osobowych użytkownika do Dewelopera. Nie wymagamy zakładania konta, logowania się ani podawania imienia czy adresu e-mail.
 
 Aplikacja przetwarza dane w następujący sposób:
-* **Przetwarzanie lokalne:** Postępy w grze, ustawienia, czasy rozwiązywania łamigłówek oraz statystyki są zapisywane wyłącznie w bezpiecznej pamięci wewnętrznej urządzenia użytkownika.
+* **Przetwarzanie lokalne:** Postępy w grze, ustawienia, czasy rozwiązywania łamigłówek oraz statystyki są zapisywane w bezpiecznej pamięci wewnętrznej urządzenia użytkownika.
+* **Kopie na koncie Google Użytkownika:** Dodatkowo dwa mechanizmy mogą kopiować te dane **na własne konto Google Użytkownika** — nigdy do Dewelopera, który nie posiada serwera (backendu) ani dostępu do tych kopii: **automatyczna kopia zapasowa Androida** (systemowa funkcja „Auto Backup", kopiująca dane aplikacji na Dysk Google Użytkownika — niezwiązana z Android Auto) oraz — po połączeniu gry z **Google Play Games** — **zapis w chmurze** (zob. sekcja 3D).
 * **Przetwarzanie przez partnerów:** Aplikacja korzysta z bibliotek zewnętrznych (SDK), które mogą gromadzić identyfikatory urządzenia oraz dane diagnostyczne, wyłącznie po uzyskaniu wyraźnej zgody Użytkownika. Żadne dane osobowe ani identyfikatory urządzenia nie są przesyłane do partnerów przed wyrażeniem tej zgody. Jedynym wyjątkiem są zanonimizowane, pozbawione identyfikatorów dane pomiarowe (tzw. cookieless pings), które Google Firebase może wysyłać w ramach mechanizmu Consent Mode v2 — szczegóły w sekcji 3B.
 
 ### 3. Partnerzy zewnętrzni i udostępnianie danych
@@ -47,9 +53,19 @@ Aplikacja korzysta z trzech usług Firebase, które podlegają **oddzielnym mech
 **C. Google Play Services (Płatności)**
 Aplikacja korzysta z usług Google Play do obsługi zakupów w aplikacji. Deweloper nie ma dostępu do danych finansowych Użytkownika.
 
+**D. Google Play Games Services (Zapis w chmurze)**
+Po połączeniu gry z Google Play Games postęp Użytkownika jest dodatkowo zapisywany w jego profilu Play Games („Zapisane gry"), w infrastrukturze Google i powiązany z jego kontem Google. Dzięki temu postęp zostaje zachowany przy zmianie telefonu lub ponownej instalacji gry.
+
+* **Dobrowolność połączenia:** Aplikacja nigdy nie wymusza logowania. Ciche logowanie następuje wyłącznie wtedy, gdy Użytkownik wcześniej włączył automatyczne logowanie w grach w ustawieniach Google Play Games. W przeciwnym razie żadne dane nie są wysyłane, dopóki Użytkownik nie wybierze „Połącz" w Ustawieniach Aplikacji.
+* **Zakres kopiowanych danych:** statystyki gier, najdłuższa seria, zamrożenia serii oraz zasoby w grze. Zakupy **nie** są częścią tej kopii — odtwarza je mechanizm płatności Google Play.
+* **Dane otrzymywane z Play Games:** identyfikator gracza oraz nazwa wyświetlana Play Games. Służą wyłącznie do pokazania, z jakim profilem gra jest połączona. Deweloper nadal nie posiada serwera (backendu), nie ma dostępu do konta Google Użytkownika ani możliwości odczytania tych kopii poza urządzeniem.
+* **Wyłączenie:** *Ustawienia Aplikacji -> Kopia w chmurze -> przełącznik „Zapisuj postęp"*. Nowy postęp przestaje być zapisywany natychmiast.
+* **Usunięcie:** *Ustawienia Aplikacji -> „Usuń kopię z chmury"*. Dane Play Games dla tej gry — albo cały profil Play Games — można też usunąć bezpośrednio u Google: https://support.google.com/googleplay/answer/9130646
+* Wyłączenie zapisu **nie** usuwa kopii, która już istnieje — to dwie osobne czynności. Aplikacja pyta o usunięcie kopii przy wyłączaniu zapisu.
+
 ### 4. Cel działań
 Działania podejmowane przez Aplikację mają na celu:
-1. **Funkcjonalność gry:** Zapisywanie stanu gry (Save/Load) – dane lokalne.
+1. **Funkcjonalność gry:** Zapisywanie stanu gry (Save/Load) – dane lokalne oraz, opcjonalnie, kopia na koncie Google Użytkownika.
 2. **Utrzymanie i rozwój:** Monitorowanie błędów i statystyk – tylko za zgodą Użytkownika.
 3. **Monetyzacja:** Wyświetlanie reklam – spersonalizowane tylko za zgodą Użytkownika.
 
@@ -59,6 +75,10 @@ Pełna kontrola nad danymi leży po stronie Użytkownika.
 **Zarządzanie postępem gry (Dane Lokalne):**
 * **Usuwanie pojedynczych wpisów:** Użytkownik ma możliwość ręcznego usunięcia wybranych wyników w sekcji Statystyk.
 * **Całkowite usunięcie danych:** Aby trwale usunąć wszystkie postępy, należy odinstalować aplikację lub wyczyścić jej dane (*Ustawienia Androida -> Aplikacje -> Velo Sudoku -> Pamięć -> Wyczyść dane*).
+
+**Zarządzanie kopiami na koncie Google:**
+* **Kopia w chmurze (Play Games):** *Ustawienia Aplikacji -> „Usuń kopię z chmury"*. Usunięcie kopii nie narusza postępu zapisanego na urządzeniu. Dane Play Games dla tej gry można też usunąć bezpośrednio u Google: https://support.google.com/googleplay/answer/9130646
+* **Automatyczna kopia zapasowa Androida:** zarządzana w ustawieniach systemowych urządzenia (*Ustawienia Androida -> Google -> Kopia zapasowa*) oraz na Dysku Google Użytkownika.
 
 **Zarządzanie zgodami (Dane Zewnętrzne):**
 Użytkownik może w każdej chwili cofnąć lub zmienić swoje zgody w Ustawieniach Aplikacji (sekcja "Prywatność"):

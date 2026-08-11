@@ -1,6 +1,6 @@
 # Regulamin (Terms & Conditions)
 
-**Data ostatniej aktualizacji:** 20.03.2026
+**Data ostatniej aktualizacji:** 11.08.2026
 
 ### 1. Postanowienia wstępne
 Niniejszy Regulamin określa zasady korzystania z aplikacji mobilnej **Velo Sudoku** (zwanej dalej "Aplikacją"), stworzonej przez firmę **Dariusz Grebowiec Software Development** (zwaną dalej "Usługodawcą"). Pobierając lub korzystając z Aplikacji, Użytkownik wyraża zgodę na warunki niniejszego Regulaminu. Jeśli Użytkownik nie akceptuje tych warunków, nie powinien korzystać z Aplikacji.
@@ -27,14 +27,21 @@ Linki do regulaminów dostawców usług zewnętrznych:
 * [Google AdMob](https://developers.google.com/admob/terms)
 * [Google Firebase](https://firebase.google.com/terms)
 
-### 5. Wyłączenie Odpowiedzialności
+### 5. Zapis w Chmurze (Google Play Games)
+Aplikacja umożliwia opcjonalne zapisywanie postępu na koncie Google Użytkownika za pośrednictwem **Google Play Games Services** — usługi prowadzonej przez Google.
+
+* **Charakter usługi:** Zapis w chmurze udostępniany jest w stanie "TAKI, JAKI JEST" ("AS IS") oraz "W MIARĘ DOSTĘPNOŚCI" ("AS AVAILABLE"). Usługodawca nie gwarantuje, że kopia w chmurze będzie zawsze istnieć, będzie kompletna lub możliwa do odtworzenia, i nie ponosi odpowiedzialności za postęp utracony wskutek niedostępności, wadliwego działania lub zakończenia tej usługi, ani wskutek zmian na koncie Google Użytkownika.
+* **Gra na kilku urządzeniach:** Aplikacja **scala** postęp zamiast go nadpisywać — wyniki gier i zamrożenia serii ze wszystkich urządzeń są łączone, zachowywana jest najdłuższa seria, a zasoby pochodzą z najnowszej zapisanej kopii. Ponieważ urządzenia mogą działać offline i zsynchronizować się później, stan wynikowy może różnić się od stanu widocznego wcześniej na pojedynczym urządzeniu.
+* **Dobrowolność:** Zapis w chmurze jest opcjonalny. Użytkownik może w każdej chwili wyłączyć go i usunąć swoją kopię w Ustawieniach Aplikacji. Szczegóły dotyczące zakresu danych znajdują się w Polityce Prywatności (sekcja 3D).
+
+### 6. Wyłączenie Odpowiedzialności
 Aplikacja jest dostarczana w stanie "TAK JAK JEST" ("AS IS"). Usługodawca dokłada wszelkich starań, aby Aplikacja działała poprawnie, ale nie gwarantuje jej bezbłędnego działania na każdym urządzeniu. W maksymalnym zakresie dozwolonym przez prawo, Usługodawca nie ponosi odpowiedzialności za jakiekolwiek bezpośrednie, pośrednie lub wynikowe szkody wynikające z korzystania z Aplikacji.
 
-### 6. Zmiany w Regulaminie
+### 7. Zmiany w Regulaminie
 Usługodawca zastrzega sobie prawo do wprowadzania zmian w niniejszym Regulaminie. O wszelkich zmianach Użytkownicy zostaną poinformowani poprzez aktualizację treści w Aplikacji lub na stronie z Regulaminem.
 
-### 7. Prawo Właściwe
+### 8. Prawo Właściwe
 W sprawach nieuregulowanych niniejszym Regulaminem zastosowanie mają przepisy prawa polskiego.
 
-### 8. Kontakt
+### 9. Kontakt
 W przypadku pytań dotyczących niniejszego Regulaminu prosimy o kontakt pod adresem e-mail: **minigamesforeveryone@gmail.com**.
