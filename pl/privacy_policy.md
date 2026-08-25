@@ -1,6 +1,10 @@
 ## Polityka Prywatności aplikacji Velo Sudoku
 
-*Ostatnia aktualizacja: 11.08.2026*
+*Ostatnia aktualizacja: 25.08.2026*
+
+> **Podsumowanie zmian (25.08.2026):**
+> - Sekcja 3D: Rozszerzono zakres danych kopiowanych do zapisu w chmurze Play Games — poza statystykami i zasobami kopia obejmuje teraz ustawienia gry i preferencje powiadomień, zgodę na raporty błędów, informację o zaakceptowanej wersji dokumentów oraz postęp w wyzwaniach (plansze dnia, tygodnia i miesiąca wraz z nadrabianiem pominiętych dni). Doprecyzowano, że zgody reklamowe (CMP/TCF) **nie** są kopiowane i pozostają na urządzeniu.
+> - Sekcja 2: Doprecyzowano, że automatyczna kopia zapasowa Androida obejmuje również ustawienia aplikacji — z wyłączeniem zgód reklamowych.
 
 > **Podsumowanie zmian (11.08.2026):**
 > - Sekcja 2: Sprostowano opis przechowywania danych — poza pamięcią urządzenia dane mogą być kopiowane na konto Google Użytkownika (automatyczna kopia zapasowa Androida, a po połączeniu gry — zapis w chmurze Play Games). Deweloper nadal nie posiada serwera ani dostępu do tych kopii.
@@ -22,7 +26,7 @@ Aplikacja nie posiada własnego serwera (backendu) i nie przesyła danych osobow
 
 Aplikacja przetwarza dane w następujący sposób:
 * **Przetwarzanie lokalne:** Postępy w grze, ustawienia, czasy rozwiązywania łamigłówek oraz statystyki są zapisywane w bezpiecznej pamięci wewnętrznej urządzenia użytkownika.
-* **Kopie na koncie Google Użytkownika:** Dodatkowo dwa mechanizmy mogą kopiować te dane **na własne konto Google Użytkownika** — nigdy do Dewelopera, który nie posiada serwera (backendu) ani dostępu do tych kopii: **automatyczna kopia zapasowa Androida** (systemowa funkcja „Auto Backup", kopiująca dane aplikacji na Dysk Google Użytkownika — niezwiązana z Android Auto) oraz — po połączeniu gry z **Google Play Games** — **zapis w chmurze** (zob. sekcja 3D).
+* **Kopie na koncie Google Użytkownika:** Dodatkowo dwa mechanizmy mogą kopiować te dane **na własne konto Google Użytkownika** — nigdy do Dewelopera, który nie posiada serwera (backendu) ani dostępu do tych kopii: **automatyczna kopia zapasowa Androida** (systemowa funkcja „Auto Backup", kopiująca dane i ustawienia aplikacji na Dysk Google Użytkownika — z wyłączeniem zgód reklamowych, które zostają na urządzeniu; funkcja niezwiązana z Android Auto) oraz — po połączeniu gry z **Google Play Games** — **zapis w chmurze** (zob. sekcja 3D).
 * **Przetwarzanie przez partnerów:** Aplikacja korzysta z bibliotek zewnętrznych (SDK), które mogą gromadzić identyfikatory urządzenia oraz dane diagnostyczne, wyłącznie po uzyskaniu wyraźnej zgody Użytkownika. Żadne dane osobowe ani identyfikatory urządzenia nie są przesyłane do partnerów przed wyrażeniem tej zgody. Jedynym wyjątkiem są zanonimizowane, pozbawione identyfikatorów dane pomiarowe (tzw. cookieless pings), które Google Firebase może wysyłać w ramach mechanizmu Consent Mode v2 — szczegóły w sekcji 3B.
 
 ### 3. Partnerzy zewnętrzni i udostępnianie danych
@@ -57,7 +61,7 @@ Aplikacja korzysta z usług Google Play do obsługi zakupów w aplikacji. Dewelo
 Po połączeniu gry z Google Play Games postęp Użytkownika jest dodatkowo zapisywany w jego profilu Play Games („Zapisane gry"), w infrastrukturze Google i powiązany z jego kontem Google. Dzięki temu postęp zostaje zachowany przy zmianie telefonu lub ponownej instalacji gry.
 
 * **Dobrowolność połączenia:** Aplikacja nigdy nie wymusza logowania. Ciche logowanie następuje wyłącznie wtedy, gdy Użytkownik wcześniej włączył automatyczne logowanie w grach w ustawieniach Google Play Games. W przeciwnym razie żadne dane nie są wysyłane, dopóki Użytkownik nie wybierze „Połącz" w Ustawieniach Aplikacji.
-* **Zakres kopiowanych danych:** statystyki gier, najdłuższa seria, zamrożenia serii oraz zasoby w grze. Zakupy **nie** są częścią tej kopii — odtwarza je mechanizm płatności Google Play.
+* **Zakres kopiowanych danych:** statystyki gier, najdłuższa seria, zamrożenia serii, zasoby w grze, postęp w wyzwaniach (ukończone plansze dnia, tygodnia i miesiąca oraz stan nadrabiania pominiętych dni), a także ustawienia gry i preferencje powiadomień, zgoda na raporty o błędach i wydajności oraz informacja o zaakceptowanej wersji dokumentów prawnych. Zakupy **nie** są częścią tej kopii — odtwarza je mechanizm płatności Google Play. **Zgody reklamowe (CMP/TCF) również nie są kopiowane** — pozostają na urządzeniu, więc na nowym telefonie Użytkownik podejmuje tę decyzję od nowa.
 * **Dane otrzymywane z Play Games:** identyfikator gracza oraz nazwa wyświetlana Play Games. Służą wyłącznie do pokazania, z jakim profilem gra jest połączona. Deweloper nadal nie posiada serwera (backendu), nie ma dostępu do konta Google Użytkownika ani możliwości odczytania tych kopii poza urządzeniem.
 * **Wyłączenie:** *Ustawienia Aplikacji -> Kopia w chmurze -> przełącznik „Zapisuj postęp"*. Nowy postęp przestaje być zapisywany natychmiast.
 * **Usunięcie:** *Ustawienia Aplikacji -> „Usuń kopię z chmury"*. Dane Play Games dla tej gry — albo cały profil Play Games — można też usunąć bezpośrednio u Google: https://support.google.com/googleplay/answer/9130646

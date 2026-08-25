@@ -1,6 +1,6 @@
 # Terms & Conditions 
 
-**Last updated:** August 11, 2026
+**Last updated:** August 25, 2026
 
 ### 1. Introduction
 These Terms & Conditions apply to the **Velo Sudoku** app (hereby referred to as "Application") created by **Dariusz Grebowiec Software Development** (hereby referred to as "Service Provider") as a Freemium app. By downloading or using the Application, you are agreeing to be bound by these terms. If you do not agree to these terms, please do not use the Application.
@@ -31,7 +31,7 @@ Link to Terms and Conditions of third-party service providers used by the app:
 The Application offers optional saving of your progress to your Google account through **Google Play Games Services**, a service operated by Google.
 
 * **Nature of the service:** Cloud save is made available on an "AS IS" and "AS AVAILABLE" basis. The Service Provider does not guarantee that a cloud copy will always exist, be complete, or be recoverable, and is not liable for progress lost through the unavailability, malfunction or discontinuation of that service, or through changes to your Google account.
-* **Playing on multiple devices:** The Application **merges** progress rather than overwriting it — game results and streak freezes from all devices are combined, the best streak is kept, and resources come from the most recently saved copy. Because devices may play offline and sync later, the resulting state may differ from the state previously shown on any single device.
+* **Playing on multiple devices:** The Application **merges** progress rather than overwriting it — game results, streak freezes and completed challenges (daily, weekly and monthly puzzles, including made-up days and the make-up allowance already used) from all devices are combined, and the best streak is kept. Resources **and game settings** come from the most recently saved copy — changing a setting on one device may therefore replace the setting previously saved on another. Because devices may play offline and sync later, the resulting state may differ from the state previously shown on any single device.
 * **Optional:** Cloud save is optional. You can turn it off and delete your cloud copy at any time in the Application's settings. Details of the data involved are described in the Privacy Policy (section 3D).
 
 ### 6. Limitation of Liability

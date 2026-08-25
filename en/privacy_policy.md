@@ -1,6 +1,10 @@
 ## Privacy Policy for Velo Sudoku
 
-*Last updated: August 11, 2026*
+*Last updated: August 25, 2026*
+
+> **Summary of changes (August 25, 2026):**
+> - Section 3D: Widened the scope of data copied to Play Games cloud save — besides statistics and resources, the copy now also carries game settings and notification preferences, the crash-reporting consent, the accepted version of the legal documents, and challenge progress (daily, weekly and monthly puzzles, including make-up days). Clarified that advertising consents (CMP/TCF) are **not** copied and stay on the device.
+> - Section 2: Clarified that Android Auto Backup also covers the App's settings, excluding advertising consents.
 
 > **Summary of changes (August 11, 2026):**
 > - Section 2: Corrected the description of data storage — beyond the device's memory, data may be copied to the User's own Google account (Android's automatic app backup, and cloud save once the game is connected to Play Games). The Developer still has no backend server and no access to these copies.
@@ -22,7 +26,7 @@ The App does not have its own backend server and does not transmit personal user
 
 The App processes data in the following ways:
 * **Local Processing:** Game progress, settings, puzzle solving times, and statistics are stored in the secure internal memory of the user's device.
-* **Copies on the User's Google account:** Two mechanisms may additionally copy this data **to the User's own Google account** — never to the Developer, who has no backend server and no access to these copies: **Android's automatic app backup** (the system "Auto Backup for Apps" feature, which copies app data to the User's Google Drive — unrelated to Android Auto) and, once the game is connected to **Google Play Games**, **cloud save** (see section 3D).
+* **Copies on the User's Google account:** Two mechanisms may additionally copy this data **to the User's own Google account** — never to the Developer, who has no backend server and no access to these copies: **Android's automatic app backup** (the system "Auto Backup for Apps" feature, which copies app data and settings to the User's Google Drive — excluding advertising consents, which stay on the device; unrelated to Android Auto) and, once the game is connected to **Google Play Games**, **cloud save** (see section 3D).
 * **Third-Party Processing:** The App uses external libraries (SDKs) that may collect device identifiers and diagnostic data, only after obtaining explicit User consent. No personal data or device identifiers are transmitted to partners before consent is given. The only exception is anonymized, identifier-free measurement data (so-called cookieless pings) that Google Firebase may send as part of the Consent Mode v2 mechanism — details in section 3B.
 
 ### 3. Third-Party Partners and Data Sharing
@@ -57,7 +61,7 @@ The App uses Google Play services for in-app purchases. The Developer does not h
 Once the game is connected to Google Play Games, the User's progress is additionally saved to their Play Games profile ("Saved Games"), inside Google's infrastructure and linked to their Google account. This keeps progress available when changing phones or reinstalling the game.
 
 * **Connecting is optional:** The App never forces sign-in. Silent sign-in happens only if the User has previously enabled automatic sign-in for games in their Google Play Games settings. Otherwise no data is sent until the User taps "Connect" in the App Settings.
-* **Scope of copied data:** game statistics, best streak, streak freezes and in-game resources. Purchases are **not** part of this copy — they are restored by Google Play billing.
+* **Scope of copied data:** game statistics, best streak, streak freezes, in-game resources, challenge progress (completed daily, weekly and monthly puzzles together with the make-up state), as well as game settings and notification preferences, the crash- and performance-reporting consent, and the accepted version of the legal documents. Purchases are **not** part of this copy — they are restored by Google Play billing. **Advertising consents (CMP/TCF) are not copied either** — they stay on the device, so the User makes that choice again on a new phone.
 * **Data received from Play Games:** the player ID and the Play Games display name. These are used solely to show which profile the game is connected to. The Developer still has no backend server, no access to the User's Google account, and no way to read these copies outside the device.
 * **Turning it off:** *App Settings -> Cloud backup -> "Save progress" toggle*. New progress stops being saved immediately.
 * **Deleting it:** *App Settings -> "Delete cloud copy"*. Play Games data for this game — or the entire Play Games profile — can also be deleted directly at Google: https://support.google.com/googleplay/answer/9130646
