@@ -1,6 +1,6 @@
 # Regulamin (Terms & Conditions)
 
-**Data ostatniej aktualizacji:** 11.08.2026
+**Data ostatniej aktualizacji:** 25.08.2026
 
 ### 1. Postanowienia wstępne
 Niniejszy Regulamin określa zasady korzystania z aplikacji mobilnej **Velo Sudoku** (zwanej dalej "Aplikacją"), stworzonej przez firmę **Dariusz Grebowiec Software Development** (zwaną dalej "Usługodawcą"). Pobierając lub korzystając z Aplikacji, Użytkownik wyraża zgodę na warunki niniejszego Regulaminu. Jeśli Użytkownik nie akceptuje tych warunków, nie powinien korzystać z Aplikacji.
@@ -31,7 +31,7 @@ Linki do regulaminów dostawców usług zewnętrznych:
 Aplikacja umożliwia opcjonalne zapisywanie postępu na koncie Google Użytkownika za pośrednictwem **Google Play Games Services** — usługi prowadzonej przez Google.
 
 * **Charakter usługi:** Zapis w chmurze udostępniany jest w stanie "TAKI, JAKI JEST" ("AS IS") oraz "W MIARĘ DOSTĘPNOŚCI" ("AS AVAILABLE"). Usługodawca nie gwarantuje, że kopia w chmurze będzie zawsze istnieć, będzie kompletna lub możliwa do odtworzenia, i nie ponosi odpowiedzialności za postęp utracony wskutek niedostępności, wadliwego działania lub zakończenia tej usługi, ani wskutek zmian na koncie Google Użytkownika.
-* **Gra na kilku urządzeniach:** Aplikacja **scala** postęp zamiast go nadpisywać — wyniki gier i zamrożenia serii ze wszystkich urządzeń są łączone, zachowywana jest najdłuższa seria, a zasoby pochodzą z najnowszej zapisanej kopii. Ponieważ urządzenia mogą działać offline i zsynchronizować się później, stan wynikowy może różnić się od stanu widocznego wcześniej na pojedynczym urządzeniu.
+* **Gra na kilku urządzeniach:** Aplikacja **scala** postęp zamiast go nadpisywać — wyniki gier, zamrożenia serii oraz ukończone wyzwania (plansze dnia, tygodnia i miesiąca wraz z nadrobionymi dniami i wykorzystanym limitem nadrabiania) ze wszystkich urządzeń są łączone, a zachowywana jest najdłuższa seria. Zasoby **oraz ustawienia gry** pochodzą z najnowszej zapisanej kopii — zmiana ustawień na jednym urządzeniu może więc zastąpić ustawienia zapisane wcześniej na innym. Ponieważ urządzenia mogą działać offline i zsynchronizować się później, stan wynikowy może różnić się od stanu widocznego wcześniej na pojedynczym urządzeniu.
 * **Dobrowolność:** Zapis w chmurze jest opcjonalny. Użytkownik może w każdej chwili wyłączyć go i usunąć swoją kopię w Ustawieniach Aplikacji. Szczegóły dotyczące zakresu danych znajdują się w Polityce Prywatności (sekcja 3D).
 
 ### 6. Wyłączenie Odpowiedzialności
