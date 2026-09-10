@@ -1,6 +1,10 @@
 ## Polityka Prywatności aplikacji Velo Sudoku
 
-*Ostatnia aktualizacja: 25.08.2026*
+*Ostatnia aktualizacja: 10.09.2026*
+
+> **Podsumowanie zmian (10.09.2026):**
+> - Sekcja 2: Dodano opis przypomnień w grze — powstają wyłącznie na urządzeniu, wymagają zgody (uprawnienie systemowe i przełącznik w Aplikacji), można je wyłączyć w Ustawieniach; nie zawierają treści reklamowych.
+> - Sekcja 4: Uzupełniono cele o przypomnienia o rozgrywce.
 
 > **Podsumowanie zmian (25.08.2026):**
 > - Sekcja 3D: Rozszerzono zakres danych kopiowanych do zapisu w chmurze Play Games — poza statystykami i zasobami kopia obejmuje teraz ustawienia gry i preferencje powiadomień, zgodę na raporty błędów, informację o zaakceptowanej wersji dokumentów oraz postęp w wyzwaniach (plansze dnia, tygodnia i miesiąca wraz z nadrabianiem pominiętych dni). Doprecyzowano, że zgody reklamowe (CMP/TCF) **nie** są kopiowane i pozostają na urządzeniu.
@@ -28,6 +32,7 @@ Aplikacja przetwarza dane w następujący sposób:
 * **Przetwarzanie lokalne:** Postępy w grze, ustawienia, czasy rozwiązywania łamigłówek oraz statystyki są zapisywane w bezpiecznej pamięci wewnętrznej urządzenia użytkownika.
 * **Kopie na koncie Google Użytkownika:** Dodatkowo dwa mechanizmy mogą kopiować te dane **na własne konto Google Użytkownika** — nigdy do Dewelopera, który nie posiada serwera (backendu) ani dostępu do tych kopii: **automatyczna kopia zapasowa Androida** (systemowa funkcja „Auto Backup", kopiująca dane i ustawienia aplikacji na Dysk Google Użytkownika — z wyłączeniem zgód reklamowych, które zostają na urządzeniu; funkcja niezwiązana z Android Auto) oraz — po połączeniu gry z **Google Play Games** — **zapis w chmurze** (zob. sekcja 3D).
 * **Przetwarzanie przez partnerów:** Aplikacja korzysta z bibliotek zewnętrznych (SDK), które mogą gromadzić identyfikatory urządzenia oraz dane diagnostyczne, wyłącznie po uzyskaniu wyraźnej zgody Użytkownika. Żadne dane osobowe ani identyfikatory urządzenia nie są przesyłane do partnerów przed wyrażeniem tej zgody. Jedynym wyjątkiem są zanonimizowane, pozbawione identyfikatorów dane pomiarowe (tzw. cookieless pings), które Google Firebase może wysyłać w ramach mechanizmu Consent Mode v2 — szczegóły w sekcji 3B.
+* **Powiadomienia (przypomnienia w grze):** Aplikacja może wyświetlać przypomnienia o serii dni, o planszy dnia oraz przypomnienia o powrocie po dłuższej przerwie w grze. Powiadomienia są tworzone **wyłącznie na urządzeniu Użytkownika** — ich treść nie jest wysyłana ani do Dewelopera, ani do żadnego podmiotu trzeciego, a Aplikacja nie korzysta w tym celu z serwera. Wysyłka wymaga zgody Użytkownika: uprawnienia systemowego (Android 13 i nowsze) oraz przełącznika w Aplikacji. Zgodę można wycofać w każdej chwili — w ustawieniach systemu albo w **Ustawieniach → Powiadomienia**. Przypomnienia nie zawierają treści reklamowych ani ofert handlowych.
 
 ### 3. Partnerzy zewnętrzni i udostępnianie danych
 Zintegrowaliśmy z Aplikacją usługi zaufanych podmiotów trzecich. Nie mamy bezpośredniego dostępu do danych gromadzonych przez te systemy.
@@ -72,6 +77,7 @@ Działania podejmowane przez Aplikację mają na celu:
 1. **Funkcjonalność gry:** Zapisywanie stanu gry (Save/Load) – dane lokalne oraz, opcjonalnie, kopia na koncie Google Użytkownika.
 2. **Utrzymanie i rozwój:** Monitorowanie błędów i statystyk – tylko za zgodą Użytkownika.
 3. **Monetyzacja:** Wyświetlanie reklam – spersonalizowane tylko za zgodą Użytkownika.
+4. **Przypomnienia:** Wyświetlanie lokalnych przypomnień o rozgrywce – wyłącznie za zgodą Użytkownika i wyłącznie na urządzeniu.
 
 ### 5. Usuwanie danych
 Pełna kontrola nad danymi leży po stronie Użytkownika.

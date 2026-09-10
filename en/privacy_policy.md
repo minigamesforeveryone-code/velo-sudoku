@@ -1,6 +1,10 @@
 ## Privacy Policy for Velo Sudoku
 
-*Last updated: August 25, 2026*
+*Last updated: September 10, 2026*
+
+> **Summary of changes (September 10, 2026):**
+> - Section 2: Added a description of in-game reminders — they are created solely on the device, require consent (system permission and an in-app switch), can be turned off in Settings, and carry no advertising content.
+> - Section 4: Added gameplay reminders to the list of purposes.
 
 > **Summary of changes (August 25, 2026):**
 > - Section 3D: Widened the scope of data copied to Play Games cloud save — besides statistics and resources, the copy now also carries game settings and notification preferences, the crash-reporting consent, the accepted version of the legal documents, and challenge progress (daily, weekly and monthly puzzles, including make-up days). Clarified that advertising consents (CMP/TCF) are **not** copied and stay on the device.
@@ -28,6 +32,7 @@ The App processes data in the following ways:
 * **Local Processing:** Game progress, settings, puzzle solving times, and statistics are stored in the secure internal memory of the user's device.
 * **Copies on the User's Google account:** Two mechanisms may additionally copy this data **to the User's own Google account** — never to the Developer, who has no backend server and no access to these copies: **Android's automatic app backup** (the system "Auto Backup for Apps" feature, which copies app data and settings to the User's Google Drive — excluding advertising consents, which stay on the device; unrelated to Android Auto) and, once the game is connected to **Google Play Games**, **cloud save** (see section 3D).
 * **Third-Party Processing:** The App uses external libraries (SDKs) that may collect device identifiers and diagnostic data, only after obtaining explicit User consent. No personal data or device identifiers are transmitted to partners before consent is given. The only exception is anonymized, identifier-free measurement data (so-called cookieless pings) that Google Firebase may send as part of the Consent Mode v2 mechanism — details in section 3B.
+* **Notifications (in-game reminders):** The App may display reminders about the User's daily streak, about the daily puzzle, and reminders to come back after a longer break. Notifications are created **solely on the User's device** — their content is not sent to the Developer or to any third party, and the App uses no server for this purpose. Delivery requires the User's consent: the system permission (Android 13 and later) and a switch inside the App. Consent can be withdrawn at any time — in the system settings or in **Settings → Notifications**. Reminders contain no advertising or commercial offers.
 
 ### 3. Third-Party Partners and Data Sharing
 We have integrated trusted third-party services with the App. We do not have direct access to data collected by these systems.
@@ -72,6 +77,7 @@ The actions taken by the App are intended for:
 1. **Game Functionality:** Saving game state (Save/Load) — local data and, optionally, a copy on the User's Google account.
 2. **Maintenance and Development:** Monitoring crashes and statistics — only with User consent.
 3. **Monetization:** Displaying ads — personalized only with User consent.
+4. **Reminders:** Displaying local gameplay reminders — only with User consent and only on the device.
 
 ### 5. Data Deletion
 Full control over data lies with the User.
